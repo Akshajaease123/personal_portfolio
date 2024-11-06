@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import myImage from "./image1.jpeg"; // Import your custom image
 
 function App() {
   return (
