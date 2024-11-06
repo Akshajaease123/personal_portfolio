@@ -6,18 +6,36 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* Display your image */}
+        <img src={myImage} className="App-image" alt="My Project" />
+
+        {/* Add a heading */}
+        <h1>Welcome to My Projects Page</h1>
+
+        {/* Add some descriptive text */}
+        <p>Here are some of the projects I've been working on:</p>
+
+        {/* Add links to your projects */}
+        <ul className="project-list">
+          <li>
+            <a
+              href="https://github.com/Akshajaease123/image_to_pdf_editor_savor"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Project 1: Java Desktop App
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/Akshajaease123/kannadatranslatespeechassist"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Project 2: Python Translation Tool
+            </a>
+          </li>
+        </ul>
       </header>
     </div>
   );
